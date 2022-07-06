@@ -7,7 +7,7 @@ console.log(BMICalculation);
 
 // default parameters and function call
 function BMI2(w = 70, h = 1.67) {
-  console.log(w / (h * h));
+  console.log((w / (h * h)).toFixed(2));
 }
 BMI2();
 
